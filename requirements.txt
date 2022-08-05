@@ -1,0 +1,18 @@
+channels:
+  - defaults
+dependencies:
+  - seaborn
+  - numpy
+  - jupyterlab
+  - jupyter
+  - pandas
+  - scikit-learn=0.24.1
+  - matplotlib
+  - python=3.8
+  - plotly=4.12.0
+  - bokeh=2.2.3
+  - nltk
+  - statsmodels
+  - dash-bio
+  - fsspec
+  - s3fs
