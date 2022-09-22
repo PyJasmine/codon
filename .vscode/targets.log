@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Sep 22 17:47:17 2022
+# Make data base, printed on Thu Sep 22 18:34:04 2022
 
 # Variables
 
@@ -111,7 +113,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 91925
+GIO_LAUNCHED_DESKTOP_FILE_PID = 100665
 # automatic
 %F = $(notdir $%)
 # environment
@@ -257,7 +259,7 @@ GJS_DEBUG_OUTPUT = stderr
 # environment
 LANG = C
 # environment
-VSCODE_PID = 91977
+VSCODE_PID = 100715
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
@@ -278,6 +280,7 @@ _CE_CONDA =
 # No implicit rules.
 
 # Files
+ 
 
 stop: .FORCE
 #  Implicit rule search has not been done.
@@ -286,9 +289,6 @@ stop: .FORCE
 #  recipe to execute (from 'Makefile', line 33):
 	docker-compose stop
 	docker ps | grep fastpages | awk '{print $1}' | xargs docker stop
-
- 
-make: *** No rule to make target 'all'.  Stop.
 
 # Not a target:
 all:
@@ -408,6 +408,6 @@ convert: .FORCE
 # strcache performance: lookups = 79 / hit rate = 32%
 # hash-table stats:
 # Load=53/8192=1%, Rehash=0, Collisions=2/79=3%
-# Finished Make data base on Thu Sep 22 17:47:17 2022
+# Finished Make data base on Thu Sep 22 18:34:04 2022
 
  
