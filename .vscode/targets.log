@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Sep 22 18:34:04 2022
+# Make data base, printed on Sat Nov 19 21:46:31 2022
 
 # Variables
 
@@ -45,11 +43,11 @@ CURDIR := /home/amina/Documents/Jasmine/BrainStation/codon
 # makefile
 SHELL = /bin/sh
 # environment
-SNAP_DATA = /var/snap/code/106
+SNAP_DATA = /var/snap/code/113
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
 # environment
-JOURNAL_STREAM = 8:52679
+JOURNAL_STREAM = 8:56583
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
@@ -69,15 +67,15 @@ XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/d
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
-_ = /snap/code/106/usr/share/code/code
+_ = /snap/code/113/usr/share/code/code
 # environment
-MANAGERPID = 4799
+MANAGERPID = 5005
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 VSCODE_CWD = /home/amina
 # environment
-GSETTINGS_SCHEMA_DIR = /snap/code/106/usr/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /snap/code/113/usr/share/glib-2.0/schemas
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -85,15 +83,15 @@ PATH = /home/amina/.local/bin:/home/amina/anaconda3/bin:/home/amina/anaconda3/co
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-SESSION_MANAGER = local/aminas-laptop:@/tmp/.ICE-unix/5014,unix/aminas-laptop:/tmp/.ICE-unix/5014
+SESSION_MANAGER = local/aminas-laptop:@/tmp/.ICE-unix/5219,unix/aminas-laptop:/tmp/.ICE-unix/5219
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GDK_PIXBUF_MODULE_FILE = /home/amina/snap/code/common/.cache/gdk-pixbuf-loaders.cache
 # environment
-SNAP = /snap/code/106
+SNAP = /snap/code/113
 # environment
-SNAP_VERSION = 784b0177
+SNAP_VERSION = 62610756
 # environment
 CONDA_PREFIX = /home/amina/anaconda3
 # environment
@@ -101,9 +99,9 @@ XDG_MENU_PREFIX = gnome-
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = d45adda351a8444e8c5c95033166be83
+INVOCATION_ID = a6c8388281b340a3ac962d79ffc01736
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/106/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/113/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -113,7 +111,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 100665
+GIO_LAUNCHED_DESKTOP_FILE_PID = 107754
 # automatic
 %F = $(notdir $%)
 # environment
@@ -127,7 +125,7 @@ PWD = /home/amina/Documents/Jasmine/BrainStation/codon
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 4974
+SSH_AGENT_PID = 5180
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -141,7 +139,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 VSCODE_CLI = 1
 # environment
-VSCODE_CODE_CACHE_PATH = /home/amina/.config/Code/CachedData/784b0177c56c607789f9638da7b6bf3230d47a8c
+VSCODE_CODE_CACHE_PATH = /home/amina/.config/Code/CachedData/6261075646f055b99068d3688932416f2346dd3b
 # environment
 LOGNAME = amina
 # environment
@@ -177,7 +175,7 @@ MAKECMDGOALS := all
 # environment
 QT_IM_MODULE = ibus
 # environment
-SNAP_USER_DATA = /home/amina/snap/code/106
+SNAP_USER_DATA = /home/amina/snap/code/113
 # environment
 SHLVL = 0
 # environment
@@ -187,7 +185,7 @@ MAKE_VERSION := 4.2.1
 # environment
 USER = amina
 # environment
-SNAP_REVISION = 106
+SNAP_REVISION = 113
 # makefile
 .DEFAULT_GOAL := help
 # environment
@@ -205,7 +203,7 @@ MAKE_COMMAND := make
 # environment
 LANGUAGE = en_GB:en
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-ffa0589f-1.71.0-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-ffa0589f-1.73.1-main.sock
 # environment
 BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # makefile
@@ -259,7 +257,7 @@ GJS_DEBUG_OUTPUT = stderr
 # environment
 LANG = C
 # environment
-VSCODE_PID = 100715
+VSCODE_PID = 107801
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
@@ -271,9 +269,9 @@ _CE_CONDA =
 
 # Directories
 
-# . (device 66306, inode 15991539): 36 files, no impossibilities.
+# . (device 66306, inode 15991539): 37 files, no impossibilities.
 
-# 36 files, no impossibilities in 1 directories.
+# 37 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -281,6 +279,8 @@ _CE_CONDA =
 
 # Files
  
+make: *** No rule to make target 'all'.  Stop.
+
 
 stop: .FORCE
 #  Implicit rule search has not been done.
@@ -402,12 +402,12 @@ convert: .FORCE
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 53 / storage = 540 B / avg = 10 B
-# current buf: size = 8162 B / used = 540 B / count = 53 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 54 / storage = 559 B / avg = 10 B
+# current buf: size = 8162 B / used = 559 B / count = 54 / avg = 10 B
 
-# strcache performance: lookups = 79 / hit rate = 32%
+# strcache performance: lookups = 80 / hit rate = 32%
 # hash-table stats:
-# Load=53/8192=1%, Rehash=0, Collisions=2/79=3%
-# Finished Make data base on Thu Sep 22 18:34:04 2022
+# Load=54/8192=1%, Rehash=0, Collisions=2/80=2%
+# Finished Make data base on Sat Nov 19 21:46:31 2022
 
  
